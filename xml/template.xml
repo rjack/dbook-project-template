@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<article
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns="http://docbook.org/ns/docbook"
+	version="5.0"
+	xml:lang="it">
+
+	<info>
+		<author>
+			<personname>
+				<firstname>Giacomo</firstname>
+				<surname>Ritucci</surname>
+			</personname>
+		</author>
+
+		<title>Template</title>
+	</info>
+
+	<section xml:id="sezione">
+		<title>Sezione</title>
+
+		<para>La vista teresa correa tra l'erbetta, tutta trentatrè
+			trotterellando.</para>
+	</section>
+</article>
