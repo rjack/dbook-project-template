@@ -2,6 +2,7 @@
 
 <article
 	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:svg="http://www.w3.org/2000/svg"
 	xmlns="http://docbook.org/ns/docbook"
 	version="5.0"
 	xml:lang="it">
@@ -18,9 +19,31 @@
 	</info>
 
 	<section xml:id="sezione">
-		<title>Sezione</title>
+		<title>La vispa teresa</title>
 
-		<para>La vista teresa correa tra l'erbetta, tutta trentatrè
+		<para>La vispa teresa correa tra l'erbetta, tutta trentatrè
 			trotterellando.</para>
+
+		<figure xml:id="immagine" xreflabel="un'immagine di prova">
+			<title>Immagine di prova</title>
+
+			<mediaobject>
+				<imageobject role="fo-fop">
+					<imagedata
+						fileref="img/print/copyleft.png"
+						align="center"
+						format="PNG"/>
+				</imageobject>
+
+				<imageobject role="xhtml">
+					<imagedata
+						fileref="img/copyleft.png"
+						align="center"
+						format="PNG"/>
+				</imageobject>
+			</mediaobject>
+
+			<caption>Una didascalia</caption>
+		</figure>
 	</section>
 </article>
